@@ -1,0 +1,175 @@
+/* About Us  */
+
+
+
+ .background_aboutUs_wallpaper {
+  position: absolute;
+  z-index: 0;
+  
+  margin: 0px 0px 0px 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  
+}
+
+
+/* About Us Info */
+
+.aboutUs_info {
+  padding: 70px 0;
+  padding-bottom: 0;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.aboutUs_container1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 550px;
+}
+
+.aboutUs_container2 {
+  margin-left: 850px;
+  margin-right: 100px;
+  width: 550px;
+}
+
+.aboutUs_container3 {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 550px;
+}
+
+.aboutUs_col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.aboutUs-col h4{
+	font-size: 30px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+.aboutUs-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+.aboutUs-col p {
+  z-index: 1;
+  text-align: justify; 
+}
+
+
+
+/* Media queries for mobile  */
+
+@media only screen and (max-width: 768px) {
+
+
+  .aboutUs-col {
+    margin-left: 30px;
+  }
+
+  .aboutUs_info {
+  padding: 70px 0;
+  padding-bottom: 0;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.aboutUs_container1 {
+  margin: 0;
+  width: 90%;
+  padding: 10px;
+  align-items: center;
+}
+
+.aboutUs_container2 {
+    margin: 0;
+  width: 90%;
+  padding: 10px;
+  align-items: center;
+}
+
+.aboutUs_container3 {
+   margin: 0;
+  width: 90%;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.aboutUs-col h4{
+	font-size: 30px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+.aboutUs-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+.aboutUs-col p {
+  z-index: 1;
+  text-align: justify; 
+}
+
+
+
+
+}
+
+
+ @media only screen and (min-width: 769px) and (max-width: 1410px) {
+
+  .aboutUs_container1 {
+    margin-bottom: 50px;
+  }
+
+  .aboutUs_container3 {
+    margin-bottom: 50px;
+  }
+
+  .aboutUs_container2 {
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-bottom: 50px;
+  width: 90%;
+  padding: 0px 372px 0px 0px;
+  align-items: center;
+}
+
+} 

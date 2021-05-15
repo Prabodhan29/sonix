@@ -1,0 +1,141 @@
+/* Clients */
+
+
+#clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: auto;
+  margin-left: 300px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 15px;
+}
+
+.clients_box {
+  margin-bottom: 50px;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px 70px 20px 50px;
+  
+ 
+}
+
+.clients_heading {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+.clients_image {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+  width: 117px;
+  height: auto;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transform: translateZ(20px);
+}
+
+.clients_card_box {
+  align-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: rgba(222, 238, 245, 0.1);
+  overflow: hidden;
+  justify-content: space-between;
+  width: 260px;
+  height: 320px;
+}
+
+
+
+/* Media queries for mobile  */
+
+@media only screen and (max-width: 768px) {
+
+  
+  #clients {
+  display: flex;
+  
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 15px;
+}
+
+
+
+.clients_box {
+  margin-bottom: 50px;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px 70px 20px 50px;
+  
+ 
+}
+
+.clients_heading {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+.clients_image {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+  width: 117px;
+  height: auto;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transform: translateZ(20px);
+}
+
+.clients_card_box {
+  align-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: rgba(222, 238, 245, 0.1);
+  overflow: hidden;
+  justify-content: space-between;
+  width: 260px;
+  height: 320px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1410px) {
+
+  #clients {
+    margin-left: 0;
+    padding-right: 90px;
+  }
+
+  .clients_box {
+    padding: 20px;
+    margin: 0;
+  }
+
+}
